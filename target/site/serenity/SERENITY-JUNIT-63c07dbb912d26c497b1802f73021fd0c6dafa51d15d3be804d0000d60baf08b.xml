@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="2" name="com.gorest.goresttestsuite.GoRestCURDTest" skipped="0" tests="3" time="8.86" timestamp="2023-01-10T22:54:38.509Z[Europe/London]"><testcase classname="com.gorest.goresttestsuite.GoRestCURDTest" name="This method will create a new users record and verify it by its ID"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.gorest.goresttestsuite.GoRestCURDTest.test002(GoRestCURDTest.java:34)&#13;
+</system-err></testcase><testcase classname="com.gorest.goresttestsuite.GoRestCURDTest" name="This method will update the existing record"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.gorest.goresttestsuite.GoRestCURDTest.test003(GoRestCURDTest.java:42)&#13;
+</system-err></testcase><testcase classname="com.gorest.goresttestsuite.GoRestCURDTest" name="This method will delete the existing record"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.gorest.goresttestsuite.GoRestCURDTest.test004(GoRestCURDTest.java:50)&#13;
+</system-err></testcase></testsuite>
